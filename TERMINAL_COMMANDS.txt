@@ -1,0 +1,20 @@
+# Copy and paste these commands one by one in your terminal:
+
+# 1. Navigate to project directory
+cd /Users/remasaljifri/demo
+
+# 2. Check current status
+git status
+
+# 3. Push to GitHub (you'll be prompted for username and password/token)
+git push -u origin main
+
+# If you get authentication errors, use this instead with your token:
+# git push -u origin main
+# Username: Remasj
+# Password: [paste your Personal Access Token here]
+
+# Alternative: If you want to use SSH instead:
+# git remote set-url origin git@github.com:Remasj/CarbonTagger-.git
+# git push -u origin main
+

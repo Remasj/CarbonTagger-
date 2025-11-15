@@ -1,22 +1,22 @@
-# 🌱 Carbon Tagger
+# 🌱 Carbon Tagger: "Carbon Detoxif-ide"
 
 A web-based tool that automatically shows the real carbon footprint of everyday items, purchases, and habits.
 
-## ✨ Features
+## Features
 
-### 🔍 Search Items
+### Search Items
 Search for any item (food, clothes, electronics, travel) and instantly see its carbon footprint with an intuitive score system.
 
-### 📸 Receipt Scanner
+### Receipt Scanner
 Upload a photo of your receipt and automatically tag items with carbon scores using OCR technology. Perfect for tracking shopping trips!
 
-### 📂 Browse Categories
+### Browse Categories
 Explore products organized by category (Food, Clothing, Electronics, Travel) to discover carbon footprints across different product types.
 
-### 🔄 Carbon Swap Recommendations
+### Carbon Swap Recommendations
 After viewing an item's carbon footprint, get instant recommendations for greener alternatives with savings calculations.
 
-### 📊 Carbon Summary Dashboard
+### Carbon Summary Dashboard
 Track your weekly and monthly carbon footprint with:
 - Total carbon footprint
 - Daily averages
@@ -31,10 +31,10 @@ Fast and easy way to log daily activities:
 - Custom event creation
 - One-click logging
 
-### 🌐 Chrome Extension
+### Chrome Extension
 See carbon impact while shopping online! The extension automatically detects products and shows carbon badges on supported shopping sites.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+ and npm
@@ -61,7 +61,7 @@ npm run build
 npm start
 ```
 
-## 🌐 Chrome Extension Setup
+## Chrome Extension Setup
 
 1. Open Chrome and navigate to `chrome://extensions/`
 2. Enable "Developer mode" (toggle in top right)
@@ -76,7 +76,7 @@ The extension works on:
 - Walmart
 - (More sites can be added in `manifest.json`)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 carbon-tagger/
@@ -109,7 +109,7 @@ carbon-tagger/
 - **Charts:** Recharts
 - **Date Utils:** date-fns
 
-## 💡 How It Works
+## How It Works
 
 1. **Carbon Database:** Pre-built database with carbon footprint data for hundreds of items across multiple categories
 2. **Intuitive Scoring:** Items are scored from 1-10 with color-coded labels (Very High to Minimal)
@@ -117,7 +117,7 @@ carbon-tagger/
 4. **Real-time Updates:** Dashboard updates automatically as you add events
 5. **OCR Processing:** Receipt scanning uses Tesseract.js to extract text and match products
 
-## 🎯 Use Cases
+## Use Cases
 
 - **Personal Carbon Tracking:** Track your daily carbon footprint
 - **Shopping Decisions:** Compare products before purchasing
@@ -125,7 +125,7 @@ carbon-tagger/
 - **Habit Tracking:** Monitor recurring activities (coffee, commute, etc.)
 - **Educational:** Learn about carbon footprints of everyday items
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - User accounts and cloud sync
 - Expanded carbon database
@@ -134,7 +134,7 @@ carbon-tagger/
 - Integration with shopping apps
 - Mobile app version
 
-## 📝 License
+## License
 
 This project is open source and available for hackathons and educational purposes.
 

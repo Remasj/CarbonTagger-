@@ -61,21 +61,6 @@ npm run build
 npm start
 ```
 
-## Chrome Extension Setup
-
-1. Open Chrome and navigate to `chrome://extensions/`
-2. Enable "Developer mode" (toggle in top right)
-3. Click "Load unpacked"
-4. Select the `chrome-extension` folder
-5. The extension is now active!
-
-The extension works on:
-- Amazon
-- Etsy
-- Target
-- Walmart
-- (More sites can be added in `manifest.json`)
-
 ## Project Structure
 
 ```
